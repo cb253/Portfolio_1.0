@@ -1,0 +1,17 @@
+.container {
+    border: solid 6px rgb(5, 5, 29);
+    display: flex;
+}
+.item {    
+    margin: 4px;
+    font-size: 24px;
+    border: solid 2px;
+    padding: 6px;
+}
+.name {
+    text-align: center;
+    background-color: rgb(193, 226, 248);
+    color: black;
+    display: flex;
+    flex-direction: column;
+}
