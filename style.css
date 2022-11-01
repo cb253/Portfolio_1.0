@@ -3,26 +3,44 @@
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
-    background-color: black;
-    
+    background-color: #475c7a; 
+    padding: 10px;
+    align-items: center;
 }
-.item {    
-    border: 2px solid black;
-    background-color: grey;
-    color: whitesmoke;
-    padding: 4px;
+.item1,.item2, .item3, .item4 {    
+    background-color: #fcbb6d;
+    color: black;
+    padding: 8px;
     margin: 4px;
     position:static;
+    border-radius: 3px;
+    font-size: 15px;
+    text-align: center;
+}
+.item1 {
+    flex-grow: 1;
+    max-width: 180px;
 }
 .item2 {
+    flex-grow: 1;
+    max-width: 180px;
+}
+.item3 {
+    flex-grow: 1;
+    max-width: 180px;
+}
+.itemA1 {
     border: 2px solid black;
-    background-color: grey;
-    color: whitesmoke;
-    padding: 4px;
+    background-color: #fcbb6d;
+    color: black;
+    padding: 8px;
     margin: 4px;
+    border-radius: 3px;
+    font-size: 15px;
     
 }
 body {
+    background-color: #475c7a;
     
 }
 .contacts2 {
@@ -31,29 +49,65 @@ body {
     justify-content: flex-start;
     position:absolute;
     top: 9px;
+    left: 5px
+    color: black;
 }
 .name {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    background-color: grey;
-    color: whitesmoke;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: #d8737f;
+    color: black;
+    padding: 25px;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    height: 100%;
+    align-items: center;
+    
 }
-main {
-    text-align: center;
-    margin-left: 10%;
-    margin-right: 10%;
-}
-.aboutme {
-    display: flex;
-    background-color: rgb(156, 155, 155);
-    flex-direction: column;
 
+.ni1 {
+    border-radius: 15px;
+    padding: 35px;
+    max-height: 400px;
+    background-color: #fcbb6d;
+    margin: 5px;
+}
+.ni2 {
+    padding: 35px;
+    border-radius: 15px;
+    background-color: #fcbb6d;
+    margin: 5px;
+    font-size: 28px;
+}
+
+
+main {
+    text-align: center ;
+    margin-left: 5%;
+    margin-right: 5%;
+
+}
+.exp {
+    display: flex;
+    background-color: #ab6c82;
+    flex-direction: column;
+    border: 4px;
+    font-size: 20px;
 }
 h2 {
     font-style: italic;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serifsystem-ui,-apple-system,"Segoe UI",Roboto,
 }
-nav {
- 
+
+* {
+    
+    margin: 0px;
+}
+.mepic {
+    width: 200px;
+    border: 5px solid #475c7a;
+}
+.work {
+    background-color: #ab6c82 ;
 }
